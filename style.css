@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  width: 60%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title banner styling */
+.title-banner {
+  background-color: #ff6347; /* Highlight color */
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.title-banner h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Input styling */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #ff6347;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e55337;
+}
+
+/* Recipe suggestion styling */
+.recipe {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f0f0f5;
+  border-radius: 8px;
+  color: #555;
+}
+
+.recipe h3 {
+  color: #333;
+}
+
+.recipe p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Footer message styling */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #aaa;
+}
